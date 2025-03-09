@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.login-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 0;
+    margin: -30px -30px 20px -30px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px; 
+  margin-bottom: 5px; 
+}
+
+.description {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    width: 100%;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.password-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 30px; 
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #333;
+}
+
+.register-text {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-text a {
+    color: blue; 
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.register-link{
+    color: blue;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.register-link {
+    font-family: 'Poppins', sans-serif !important;
+    color: blue;
+    cursor: pointer;
+}
+    
